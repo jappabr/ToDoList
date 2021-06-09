@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 20,
     marginTop: 20,
-    backgroundColor: "#FFF"
+    backgroundColor: "#525252"
   },
   Body: {
     flex: 1
@@ -144,24 +144,24 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     paddingTop: 13,
     borderTopWidth: 1,
-    borderColor: "#eee"
+    borderColor: "#525252"
   },
   Input: {
     flex: 1,
     height: 40,
-    backgroundColor: "#eee",
+    backgroundColor: "#808080",
     borderRadius: 4,
     paddingVertical: 5,
     paddingHorizontal: 10,
     borderWidth: 1,
-    borderColor: "#eee"
+    borderColor: "#808080"
   },
   Button: {
     height: 40,
     width: 40,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#1c6cce",
+    backgroundColor: "#1c6c80",
     borderRadius: 4,
     marginLeft: 10
   },
@@ -180,12 +180,12 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     padding: 15,
     borderRadius: 4,
-    backgroundColor: "#eee",
+    backgroundColor: "#a0a0a0",
 
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
     borderWidth: 1,
-    borderColor: "#eee"
+    borderColor: "#525252"
   }
 });
