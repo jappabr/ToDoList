@@ -108,7 +108,7 @@ export default function App() {
           <View style={styles.Form}>
             <TextInput
               style={styles.Input}
-              placeholderTextColor="#999"
+              placeholderTextColor="#fff"
               autoCorrect={true}
               value={newTask}
               placeholder="Adicione uma tarefa"
@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
   },
   Texto: {
     fontSize: 14,
-    color: "#333",
+    color: "#fff",
     fontWeight: "bold",
     marginTop: 4,
     textAlign: "center"
